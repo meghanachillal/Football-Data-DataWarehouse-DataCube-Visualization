@@ -1,0 +1,10 @@
+For Derived Year - SUBSTRING(date,FINDSTRING(date,"/",2) + 1,LEN(date) - 1)
+
+For Derived Month - SUBSTRING(date,1,FINDSTRING(date,"/",1) - 1)
+
+For Derived Day - SUBSTRING(date,FINDSTRING(date,"/",1) + 1,FINDSTRING(date,"/",1) - 1)
+
+
+
+
+                                                                                                                                                                                 
